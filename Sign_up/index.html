@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="slyle.css" />
+        <title>Sign in</title>
+        <link rel="web site icon" href="sign-up.svg" type="png" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <header>Sign up</header>
+            <form action="#" autocomplete="off">
+                <div class="field name-field">
+                    <div class="input-field">
+                        <input
+                            type="name"
+                            placeholder=" Your Ful Name"
+                            class="name"
+                        />
+                    </div>
+                    <span class="error name-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Please enter a valid name</p>
+                    </span>
+                </div>
+                <div class="field email-field">
+                    <div class="input-field">
+                        <input
+                            type="email"
+                            placeholder="Example@gmail.com"
+                            class="email"
+                        />
+                    </div>
+                    <span class="error email-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Please enter a valid email</p>
+                    </span>
+                </div>
+                <div class="field phone-field">
+                    <div class="input-field">
+                        <input
+                            type="phone"
+                            placeholder="+212 6-XXX-XXXX"
+                            class="phone"
+                        />
+                    </div>
+                    <span class="error phone-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">
+                            Please enter a valid phone number
+                        </p>
+                    </span>
+                </div>
+                <div class="field create-password">
+                    <div class="input-field">
+                        <input
+                            type="password"
+                            placeholder="Create Password"
+                            class="password"
+                        />
+                        <i class="bx bx-hide show-hide"></i>
+                    </div>
+                    <span class="error password-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">
+                            Please enter atleast 8 charatcer with number,
+                            symbol, small and capital letter.
+                        </p>
+                    </span>
+                </div>
+                <div class="field confirm-password">
+                    <div class="input-field">
+                        <input
+                            type="password"
+                            placeholder="Confirm Password"
+                            class="cPassword"
+                        />
+                        <i class="bx bx-hide show-hide"></i>
+                    </div>
+                    <span class="error cPassword-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Password don't match</p>
+                    </span>
+                </div>
+                <div class="input-field button">
+                    <input type="submit" value="Sign up" />
+                </div>
+            </form>
+            <h4>
+                Already a member ?
+                <a href="../Log_in/index.html">Login</a>
+            </h4>
+        </div>
+        <script async src="script.js"></script>
+    </body>
+</html>

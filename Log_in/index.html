@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Log in</title>
+        <link
+            rel="web site icon"
+            href="user_avatar_profile_login_button_account_member-512.webp"
+            type="png"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <header>Log in</header>
+            <form action="#" autocomplete="off">
+                <div class="field email-field">
+                    <div class="input-field">
+                        <input
+                            type="email"
+                            placeholder="Example@gmail.com"
+                            class="email"
+                        />
+                    </div>
+                    <span class="error email-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Please enter a valid email</p>
+                    </span>
+                </div>
+                <div class="field create-password">
+                    <div class="input-field">
+                        <input
+                            type="password"
+                            placeholder="Enter your password"
+                            class="password"
+                        />
+                        <i class="bx bx-hide show-hide"></i>
+                    </div>
+                    <span class="error password-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">
+                            Please enter atleast 8 charatcer with number,
+                            symbol, small and capital letter.
+                        </p>
+                    </span>
+                </div>
+                <div class="input-field button">
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+            <h4>
+                Do not have an account ?
+                <a href="../Sign_up/index.html">Sign up</a><br />
+                <a href="../Forgot_password/index.html">Forgot password ?</a>
+            </h4>
+        </div>
+        <script async src="script.js"></script>
+    </body>
+</html>

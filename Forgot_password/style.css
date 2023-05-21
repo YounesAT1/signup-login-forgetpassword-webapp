@@ -1,0 +1,98 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.container header {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.container #feedBack {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    color: #0073cf;
+}
+.container .bxl-gmail {
+    color: #0073cf;
+    margin-right: 1rem;
+    font-size: 2rem;
+    margin-top: auto;
+}
+.feed {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.container form {
+    margin-top: 30px;
+}
+form .field {
+    margin-bottom: 20px;
+}
+form .input-field {
+    position: relative;
+    height: 55px;
+    width: 100%;
+}
+.input-field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+}
+.invalid input {
+    border-color: #d93025;
+}
+.field .error {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+}
+.invalid .error {
+    display: flex;
+}
+.error .error-icon {
+    margin-right: 6px;
+    font-size: 15px;
+}
+.button {
+    margin: 25px 0 6px;
+}
+.button input {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #537df1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button input:hover {
+    background-color: #2359ee;
+}
